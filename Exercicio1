@@ -1,0 +1,31 @@
+#include "stdio.h"
+
+int main() {
+
+    int Indice = 13;
+    int soma = 0;
+    int k;
+
+
+    for(k = 0; k < Indice; k++) {
+        k += 1;
+        soma += k;
+
+    }
+
+    printf("Valor da variavel soma: %d", soma);
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
