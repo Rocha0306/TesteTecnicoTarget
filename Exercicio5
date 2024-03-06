@@ -1,0 +1,22 @@
+IMPORTANTE:
+
+a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
+
+b) Evite usar funções prontas, como, por exemplo, reverse; */
+
+    printf("\nPalavras de no max ate 4 letras!\n");
+    char String[5];
+    int i;
+
+    for(i = 0; i < 4; i++) {
+        printf("\nDigite uma letra: ");
+        scanf(" %c", &String[i]);
+    }
+    String[i] = '\0';
+
+    printf("\nString invertida: ");
+    for(i = 3; i >= 0; i--) {
+        printf("%c", String[i]);
+    }
+
+
